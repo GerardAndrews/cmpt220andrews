@@ -1,9 +1,9 @@
-//Gerard Andrews 
+//Gerard Andrews
 //1/22/17 
 //ProgrammingExercise 2.1
 import java.util.Scanner;
 
-public class Temperature{
+public class Problem2_1{
   public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
 	System.out.println("Enter a degree in Celcius: ");
