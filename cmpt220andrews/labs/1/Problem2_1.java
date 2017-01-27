@@ -11,15 +11,16 @@ and have outputed in degrees Fahrenheit
 import java.util.Scanner;  //Importing the Scanner allows the user to use input in a command prompt
 
 public class Problem2_1{
-  public static void main(String[] args) {
-	Scanner input = new Scanner(System.in);  //This allows users to be able to enter the input.
-	System.out.println("Enter a degree in Celcius: ");
+    public static void main(String[] args) {
+	  
+      Scanner input = new Scanner(System.in);  //This allows users to be able to enter the input.
+      System.out.println("Enter a degree in Celcius: ");
 	
-	double celcius = input.nextDouble();  
-	double fahrenheit = ((9.0 / 5) * celcius + 32);  //This the equation for computing temperature.
+	  double celcius = input.nextDouble();  
+	  double fahrenheit = ((9.0 / 5) * celcius + 32);  //This the equation for computing temperature.
 	
-	System.out.println(celcius + " degrees Celcius is " + fahrenheit + " Fahrenheit.");
-  }
+	  System.out.println(celcius + " degrees Celcius is " + fahrenheit + " Fahrenheit.");
+    }
 }
 
     
