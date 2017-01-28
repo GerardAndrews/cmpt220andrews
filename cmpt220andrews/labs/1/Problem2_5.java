@@ -20,7 +20,7 @@ public class Problem2_5 {
 	double gratuity = subtotal * gratuityrate / 100;
 	//Adding subtotal and the gratuity then gives you the total
 	double total = subtotal + gratuity;
-	System.out.println("The gratuity is" + gratuity + 
-	" and the total is " + total + " .");
+	System.out.println("The gratuity is $" + gratuity + 
+	" and the total is $" + total + " .");
   }
 }
