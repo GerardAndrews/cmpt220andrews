@@ -4,6 +4,7 @@ Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 1
 Due Date: 1/24/2017
+*
 Version 1.3
 /This file allows the user to input a number and get the subtotal and gratuity of it
 */
