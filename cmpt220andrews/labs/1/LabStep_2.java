@@ -5,6 +5,7 @@ Course: CMPT220
 Assignment: Lab 1
 Due Date: 1/24/2017
 Version 1.0
+*
 /This file allows the user to input 4 grade rubrics of the software development 1 class
 and output the final grade of the course with the grade weight of the class.
 */
