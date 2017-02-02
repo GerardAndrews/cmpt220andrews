@@ -2,7 +2,7 @@
 File: SortThreeInts.java
 Author: Gerard Andrews
 Course: CMPT220
-Assignment: Lab 1
+Assignment: Lab 2
 Due Date: 2/7/2017
 Version 1.0
 /This file prompts the user to enter three integers, 

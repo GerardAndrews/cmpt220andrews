@@ -2,7 +2,7 @@
 File: RandomMonth.java
 Author: Gerard Andrews
 Course: CMPT220
-Assignment: Lab 1
+Assignment: Lab 2
 Due Date: 2/7/2017
 Version 1.0
 /This file outputs: A number between 1 and 12 to represent a month
@@ -16,9 +16,9 @@ public class RandomMonth {
     System.out.println("Number is: " + monthNum);
     //Use if and else if statements to decide what is outputed by determining the number then break  
     if (monthNum == 1)
-    System.out.println("January");
+      System.out.println("January");
     else if (monthNum == 2)
-    System.out.println("February");
+      System.out.println("February");
     else if (monthNum == 3)
       System.out.println("March");
     else if (monthNum == 4)
