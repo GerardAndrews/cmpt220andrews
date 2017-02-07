@@ -24,7 +24,7 @@ public class DaysInMonth {
       case 1: System.out.println("January, " + year + " has/had 31 days"); 
       break;
       case 2: System.out.println("February, " + year + " has/had" + 
-      ((isLeapYear) ?  " 29 days" : "28 days")); 
+        ((isLeapYear) ?  " 29 days" : "28 days")); 
         break;
       case 3: System.out.println("March, " + year + " has/had 31 days"); 
         break;
@@ -39,9 +39,9 @@ public class DaysInMonth {
       case 8: System.out.println("August, " + year + " has/had days");
         break;
       case 9: System.out.println("September, " + year + " has/had 30 days");   	 
-	break;
+	    break;
       case 10: System.out.println("October, " + year + " has/had 31 days");
-	break;
+	    break;
       case 11: System.out.println("November, " + year + " has/had 30 days");
         break;
       case 12: System.out.println("December, " + year + " has/had 31 days");
