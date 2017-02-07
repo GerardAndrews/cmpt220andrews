@@ -38,11 +38,11 @@ public class Lottery {
       case 1: System.out.println("Exact match: you win $10,000.");
         break;
       case 2: System.out.println("Match all digits: you win $3,000.");	  
-	    break;
+	break;
       case 3: System.out.println("Match one digit: you win $1,000.");
         break;
       case 4: System.out.println("Sorry, no match.");
-	    break;
+	break;
     }
   }
 }
