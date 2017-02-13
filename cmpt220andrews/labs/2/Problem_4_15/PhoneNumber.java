@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class PhoneNumber {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-	System.out.println("Input a letter: ");
+    System.out.println("Input a letter: ");
     String letter = input.nextLine();
     char phone = letter.charAt(0);
     phone = Character.toUpperCase(phone);
@@ -49,6 +49,6 @@ public class PhoneNumber {
 	}      
 	else {
         System.out.println(phone + " is an invalid input");
-	}
+    }
   }
 }
