@@ -34,6 +34,6 @@ public class FinanceApp {
     + numberOfQuarters + " quarters\n "
     + numberOfDimes + " dimes\n "
     + numberOfNickels + " nickels\n "
-    + cents + " pennies\n ";
+    + cents + " pennies\n ");
   }
 }
