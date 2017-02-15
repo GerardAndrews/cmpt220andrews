@@ -1,5 +1,5 @@
 /**
-File: Problem2_6.java
+File: DigitCheckjava
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 1
@@ -9,7 +9,7 @@ Version 1.0
 */
 import java.util.Scanner;
 
-public class Problem2_6 {
+public class DigitCheck {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter a number between 0 and 1000: ");

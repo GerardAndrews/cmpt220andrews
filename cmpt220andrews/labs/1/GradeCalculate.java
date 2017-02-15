@@ -1,5 +1,5 @@
 /**
-File: LabStep_2.java
+File: GradeCalculate.java
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 1
@@ -11,7 +11,7 @@ and output the final grade of the course with the grade weight of the class.
 */
 import java.util.Scanner;
 
-public class LabStep_2 {
+public class GradeCalculate {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Please enter the following as a percentage: ");

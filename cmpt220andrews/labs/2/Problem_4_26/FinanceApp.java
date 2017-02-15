@@ -1,5 +1,5 @@
 /**
-File: PlateNum.java
+File: FinanceApp.java
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 2
@@ -10,7 +10,7 @@ followed by 4 digits.
 */
 import java.util.Scanner;
 
-public class PlateNum {
+public class FinanceApp {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter an amount, for example 11.56: ");

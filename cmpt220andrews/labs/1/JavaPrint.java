@@ -1,5 +1,5 @@
 /**
-File: Problem1_3.java
+File: JavaPrint.java
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 1
@@ -7,7 +7,7 @@ Due Date: 1/24/2017
 Version 1.0
 /This file outputs: "JAVA" in string
 */
-public class Problem1_3 {
+public class JavaPrint {
   public static void main(String[] args) {
     System.out.println("    J    A    V     V    A");
     System.out.println("    J   A A    V   V    A A");

@@ -1,5 +1,5 @@
 /**
-File: Problem2_5.java
+File: Total.java
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 1
@@ -9,7 +9,7 @@ Version 1.3
 */
 import java.util.Scanner;
 
-public class Problem2_5 {
+public class Total {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter the subtotal: ");

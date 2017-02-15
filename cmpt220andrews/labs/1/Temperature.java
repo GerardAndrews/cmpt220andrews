@@ -1,5 +1,5 @@
 /**
-File: Problem2_1.java
+File: Temperature.java
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 1
@@ -10,7 +10,7 @@ and have outputed in degrees Fahrenheit
 */
 import java.util.Scanner;  //Importing the Scanner allows the user to use input in a command prompt
 
-public class Problem2_1 {
+public class Termperature {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);  //This allows users to be able to enter the input.
     System.out.println("Enter a degree in Celcius: ");
