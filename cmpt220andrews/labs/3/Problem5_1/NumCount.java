@@ -25,25 +25,25 @@ public class NumCount {
       System.out.println("Enter an input, (ends if it is 0): ");
         num = input.nextInt();
       if (num == 0) {
-	System.out.println("Program will now end, 0 was inputed.");
-	break);
-      }
+	  System.out.println("Program will now end, 0 was inputed.");
+	  break;
+    }
       else if (num > 0) {
        positives++;
-      }
+    }
       else {
        negatives++;
-      }
+    }
       total += num;
       count++;
       continue;
-      } while (num != 0); 
+    } while (num != 0); 
       //Now we calculate the average. & Display results
       double average = total/count;
       System.out.println("Number of positives is: " + positives + 
-     " The number of negatives is: " + negatives +
-     " The count is: " + count + " And the average is: " + average +"."); 
-  }
+      " The number of negatives is: " + negatives +
+      " The count is: " + count + " And the average is: " + average +"."); 
+  }  
 }
 	
 	
