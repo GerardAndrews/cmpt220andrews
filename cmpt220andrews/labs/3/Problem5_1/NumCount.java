@@ -23,26 +23,26 @@ public class NumCount {
    //Now we need a do statement that executes the input
     do {
       System.out.println("Enter an input, (ends if it is 0): ");
-        num = input.nextInt();
+      num = input.nextInt();
       if (num == 0) {
 	  System.out.println("Program will now end, 0 was inputed.");
 	  break;
     }
       else if (num > 0) {
-       positives++;
+        positives++;
     }
       else {
-       negatives++;
+        negatives++;
     }
       total += num;
       count++;
       continue;
     } while (num != 0); 
-      //Now we calculate the average. & Display results
-      double average = total/count;
-      System.out.println("Number of positives is: " + positives + 
-      " The number of negatives is: " + negatives +
-      " The count is: " + count + " And the average is: " + average +"."); 
+       //Now we calculate the average. & Display results
+       double average = total/count;
+       System.out.println("Number of positives is: " + positives + 
+       " The number of negatives is: " + negatives +
+       " The count is: " + count + " And the average is: " + average +"."); 
   }  
 }
 	
