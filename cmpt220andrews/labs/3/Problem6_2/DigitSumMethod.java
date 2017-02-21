@@ -14,7 +14,7 @@ public class DigitSumMethod {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
     // Prompt the user to enter an integer
-     System.out.print("Enter a integer: ");
+    System.out.print("Enter a integer: ");
     long number = input.nextLong();
     // Display the sum of all the digits in the integer
     System.out.println("The sum of the digits in " + number + " is " +

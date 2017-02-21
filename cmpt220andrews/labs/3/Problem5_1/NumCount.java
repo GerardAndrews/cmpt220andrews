@@ -2,8 +2,8 @@
 File: NumCount.java
 Author: Gerard Andrews
 Course: CMPT220
-Assignment: Lab 2
-Due Date: 2/7/2017
+Assignment: Lab 3
+Due Date: 2/21/2017
 Version 1.0
 /This file prompts the user to enter an unspecified number of integers,
 determines how many are positive and negative and computes the total and average of the input values,
