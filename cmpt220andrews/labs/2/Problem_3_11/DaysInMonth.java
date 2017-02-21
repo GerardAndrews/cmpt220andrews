@@ -22,7 +22,7 @@ public class DaysInMonth {
     boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     switch (month) {
       case 1: System.out.println("January, " + year + " has/had 31 days"); 
-      break;
+        break;
       case 2: System.out.println("February, " + year + " has/had" + 
         ((isLeapYear) ?  " 29 days" : "28 days")); 
         break;
