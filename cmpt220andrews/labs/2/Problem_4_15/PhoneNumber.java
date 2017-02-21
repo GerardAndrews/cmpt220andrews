@@ -45,9 +45,9 @@ public class PhoneNumber {
       else if (phone >= 'A') {
         number = 2;
 	  }
-	 System.out.println("The corresponding number is " + number); 
+	System.out.println("The corresponding number is " + number); 
 	}      
-	else {
+      else {
         System.out.println(phone + " is an invalid input");
     }
   }
