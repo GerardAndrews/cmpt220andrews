@@ -21,11 +21,11 @@ public class SmallestNum {
       inputList[i] = input.nextDouble();
     }
     System.out.println("The minimum number is: " + min(inputList) + ".");
-  }
-  //Create a method that searches for the smalllest number.
+    }
+    //Create a method that searches for the smalllest number.
   public static double min(double[] array){
     double min = array[0];	//The minimum value
-	for (double i: array) {
+    for (double i: array) {
       if (i < min)
       min = i;
     }
