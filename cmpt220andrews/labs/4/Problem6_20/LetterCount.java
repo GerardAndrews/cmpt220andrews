@@ -20,11 +20,11 @@ public class LetterCount {
     System.out.println("The number of letters in the of '"+ string + "' is: " + countLetters(string) +".");
   }
   public static int countLetters(String s) {
-      int letterNumber = 0;
-      for (int i = 0; i < s.length(); i++) {
-        if (Character.isLetter(s.charAt(i)))
-          letterNumber++;
-    }
-      return letterNumber;
+    int letterNumber = 0;
+    for (int i = 0; i < s.length(); i++) {
+      if (Character.isLetter(s.charAt(i)))
+        letterNumber++;
+  }
+    return letterNumber;
   }
 }
