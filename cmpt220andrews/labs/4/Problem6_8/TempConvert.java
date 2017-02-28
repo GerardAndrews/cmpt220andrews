@@ -16,7 +16,7 @@ public class TempConvert {
 	"----------------------------------------------------------");
     //Set a for loop so that it will print out the temperature coversion until it hits 
     //both temperature limits to the bottom of the requested display.
-    for (double celcius = 40.0, fahrenheit = 104.0; celcius >= 31.0; celcius--, fahrenheit -= 10) {
+    for (double celcius = 40.0, fahrenheit = 120.0; celcius >= 31.0; celcius--, fahrenheit -= 10) {
       //Make sure the table is formatted apporpritely and invoke both methods after calling,
       //the initial temperatures to see the converts
       System.out.printf("%-13.1f", celcius);
