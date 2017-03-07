@@ -30,6 +30,7 @@ public class BubbleSort {
     }
       System.out.println();
     }
+  //create a new method for the bubblesort
   public static void bubbleSort(double[] list) {
     //create a temporary value for sorting,
     //and then boolean to confirm a sorting happened.
