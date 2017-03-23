@@ -23,4 +23,36 @@ public class Driver_proj1 {
     for (int vSecond = 0; vSecond < array2.length; vSecond++){
       array2[vSecond] = input.nextDouble();
     }
+      //The result will be calculated with a separate function that uses
+    //convolution.
+    double[] vResult = convolution(array, array2);
+    //Display the result.
+    for (int vFirst = 0; vFirst < vResult.length; vFirst++){
+      System.out.print((int) vResult[vFirst] + " ");
+    }
   }
+  //Create a separate function that will use the convolution function
+  public static double[] convolution(double[] vFirst, double[] vSecond) {
+    //The vResult will be set here and and set equal to the sum of both vectors
+    double[] vResult = new double[(vFirst.length + vSecond.length) - 1];
+    //cResult will be used to shift the second vector until it hits the value of vResult.
+    for (int cResult = 0; cResult < vResult.length; cResult++){
+      vResult[cResult] = 0;
+      //Setup a for loop to keep track of how much the second vector shifts
+      for (int shift = 0; shift < 51; shift++){
+        double sum = 0;
+        //if the difference between cResult & shift = 0 & is less than the the vector's length
+        if (cResult - shift >= 0 && cResult - shift < vFirst.length){
+          //If it's less than the second vector's length
+          if (cResult >= 0 && cResult < vSecond.length)
+          //set the sum to what the first vector's difference multipled by
+          //The second vector
+            sum = (vFirst[cResult - shift] * vSecond[shift]);
+        }
+        vResult[cResult] += sum;
+      }
+    }
+    //Return the result to give the answer
+    return vResult; 
+  }
+}
