@@ -17,29 +17,29 @@ public class Driver_proj1 {
     //Create two arrays for representing two vectors, and prompt the user to
     //enter the size of both vectors
     System.out.println("Please enter the size of the first vector: ");
-    int input = input.nextInt();
-    double[] array = new double[input];
+    int in = input.nextInt();
+    double[] array = new double[in];
     System.out.println("Please enter the size of the 2nd vector: ");
-    input = input.nextInt();
+    in = input.nextInt();
     //Prompt the user to enter the numbers for both vectors
     System.out.println("Please enter the elements of the 1st vector: ");
     for (int vFirst = 0; vFirst < array.length; vFirst++){
       array[vFirst] = input.nextDouble();
     }
     System.out.println("Please enter the elements of the 2nd vector: ");
-    double[] array2 = new double[input];
+    double[] array2 = new double[in];
     for (int vSecond = 0; vSecond < array2.length; vSecond++){
       array2[vSecond] = input.nextDouble();
     }
     //The result will be calculated with a separate function that uses
     //convolution.
-    double[] vResult = convolveVectors(array, array2);
+    double[] vResult = convolution(array, array2);
     for (int vFirst = 0; vFirst < vResult.length; vFirst++){
       System.out.print((int) vResult[vFirst] + " ");
     }
   }
-  //Create a separate function that will use the convolution function
-  public static double[] convolveVectors(double[] vFirst, double[] vSecond) {
+  //Create a separate function that will use the convolution
+  public static double[] convolution(double[] vFirst, double[] vSecond) {
     //The vResult will be set here and and set equal to the sum of both vectors
     double[] vResult = new double[(vFirst.length + vSecond.length) - 1];
     //cResult will be used to shift the second vector until it hits the value of vResult.

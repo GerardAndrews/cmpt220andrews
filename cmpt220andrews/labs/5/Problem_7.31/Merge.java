@@ -32,7 +32,6 @@ public class Merge {
     for (int e: list3) {
       System.out.print(" " + e);
     }
-    System.out.println();
   }
   public static int[] merge (int[] list1, int[] list2) {
     int[] list3 = new int[list1.length + list2.length];

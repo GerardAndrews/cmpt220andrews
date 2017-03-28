@@ -17,11 +17,11 @@ public class Partition {
     //Create a lists and prompt the user to enter numbers into each list.
     System.out.println("Enter list1: ");
     int[] list = new int[9];
-    for (int i = 0; i < list1.length; i++) {
-      list1[i] = input.nextInt();
+    for (int i = 0; i < list.length; i++) {
+      list[i] = input.nextInt();
     }
     //Use the partition method
-    partition(list1);
+    partition(list);
     //Display the results
     System.out.println("After the partition, the list is: ");
     for (int i = 0; i < list.length; i++) {

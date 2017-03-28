@@ -14,18 +14,17 @@ public class Selectionsort {
   public static void main(String[] args) {
     //Create a scanner  
     Scanner input = new Scanner(System.in);
-    //Create a list of numbers and prompt the user to enter 10 numbers.
-    System.out.println("Enter 10 Numbers: ");
-    double[] numList = new double[10];
+    //Create an array and prompt the user to enter 10 numbers
+    double[] numList = new double[10]; 
+    System.out.print("Enter ten numbers: ");
     for (int i = 0; i < numList.length ; i++)
       numList[i] = input.nextDouble();
-    //Invoke the Selectionsort method to sort the array.
+    //Use the selectionSort method to sort the array
     selectionSort(numList);
-    //Display the result
-    for (double e: numList) 
-      System.out.println("Here are the sorted numbers: ");
-	  System.out.print(e + " ");
-  }
+    //Display the results
+    for (double x: numList) 
+	  System.out.println(x + " ");
+    }
   //Create a method called selectionsort which will sort the numbers
   //by finding the largest number and swapping it with last
   public static void selectionSort(double[] list) {
