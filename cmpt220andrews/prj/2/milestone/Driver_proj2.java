@@ -43,16 +43,20 @@ public class Driver_proj2 {
     //Create a Scanner
     Scanner input = new Scanner(System.in);
     System.out.println("Enter your name player: ");
+    System.out.println();
     String name = input.nextLine();
     System.out.println("Welcome to the text adventure! " + name + ".");
+    System.out.println();
     //Initialize the player's starting position here
     currLoc = 0;
     visLoc[1] = true;
     System.out.println("You are in loc1.");
+    System.out.println();
     System.out.println("Your score is, " + score +".");
     //Prompt the user for input
     while (true) {
-      System.out.print("Please input a command: ");
+      System.out.print("Please input a command, type h or help if you want to know the commands: ");
+      System.out.println();
       String cmd = input.nextLine();
       //update the game state
       if (cmd.equals ("n")) {
@@ -60,12 +64,25 @@ public class Driver_proj2 {
           currLoc = loc2;
           updateState(1);
         }
+        else if (currLoc == loc2) {
+          currLoc = loc7;
+          updateState(6);
+        }
         else if (currLoc == loc4) {
           currLoc = loc5;
           updateState(4);
         }
+        else if (currLoc == loc3) {
+          currLoc = loc8;
+          updateState(7);
+        }
+        else if (currLoc == loc8) {
+          currLoc = loc10;
+          updateState(9);
+        }
         else {
           System.out.println("There is nothing in that direction from where you are at.");
+          System.out.println();
           continue;
         }
       }
@@ -74,12 +91,25 @@ public class Driver_proj2 {
           currLoc = loc1;
           updateState(0);
         }
+        else if (currLoc == loc7) {
+          currLoc = loc2;
+          updateState(1);
+        }
+        else if (currLoc == loc10) {
+          currLoc = loc8;
+          updateState(7);
+        }
+        else if (currLoc == loc8) {
+          currLoc = loc3;
+          updateState(2);
+        }
         else if (currLoc == loc5)  {
           currLoc = loc4;
           updateState(3);
         }
         else {
           System.out.println("There is nothing in that direction from where you are at.");
+          System.out.println();
           continue;
         }
       }
@@ -88,12 +118,25 @@ public class Driver_proj2 {
           currLoc = loc1;
           updateState(0);
         }
+        else if (currLoc == loc9) {
+          currLoc = loc3;
+          updateState(2);
+        }
+        else if (currLoc == loc4) {
+          currLoc = loc6;
+          updateState(5);
+        }
+        else if (currLoc == loc8) {
+          currLoc = loc7;
+          updateState(6);
+        }
         else if (currLoc == loc1) {
           currLoc = loc4;
           updateState(3);
         }
         else {
           System.out.println("There is nothing in that direction from where you are at.");
+          System.out.println();
           continue;
         }
     }
@@ -102,12 +145,25 @@ public class Driver_proj2 {
           currLoc = loc1;
           updateState(0);
         }          
+        else if (currLoc == loc6) {
+          currLoc = loc4;
+          updateState(3);
+        }
+        else if (currLoc == loc3) {
+          currLoc = loc9;
+          updateState(8);
+        }
         else if (currLoc == loc1) {
           currLoc = loc3;
           updateState(2);
         }
+        else if (currLoc == loc7) {
+          currLoc = loc8;
+          updateState(7);
+        }
         else {
           System.out.println("There is nothing in that direction from where you are at.");
+          System.out.println();
           continue;
         }
       }
@@ -116,11 +172,15 @@ public class Driver_proj2 {
         continue;
       }
       else if (cmd.equals ("p")) {
+        //Typing p or points displays the player's score variable
         System.out.println("Your current score is " + score + " points!");
+        System.out.println();
         continue;
       }
       else if (cmd.equals ("q")) {
+        //typing quit or q breaks the loop and quits the game
         System.out.println("You have quit the game.");
+        System.out.println();
         break;
       }
       else {
@@ -134,22 +194,21 @@ public class Driver_proj2 {
     System.out.println("Copyright 2017 Gerard Andrews All Rights Reserved, gerard.andrews1@marist.edu");
     }
     public static void updateState(int currLoc) {
+      //Determine whether the player has already visited the location or not
       if (visLoc[currLoc] == false) {
         visLoc[currLoc] = true; 
         score += 5;
       }
     }
     public static void sceneRender() {
+      //print the description based on the player's current location
       System.out.println(locScene[currLoc]);
       System.out.println();
     }
     public static void helpDis(){
       System.out.println("Movement Commands: (north or n), (south or s),(west or w)");
+      System.out.println("Typing points (p) will show you your current score.");
       System.out.println("You may also type quit (q) to leave the game.");
       System.out.println();
     }
-    public static void endDis() {
-      System.out.println("You have beat the game.");
-      System.out.println();
-    }   
   }
