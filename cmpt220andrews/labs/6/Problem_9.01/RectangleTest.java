@@ -5,12 +5,10 @@ Course: CMPT220
 Assignment: Lab 6
 Due Date: 4/18/2017
 Version 1.0
-This file is a text based adventure game where the user inputs a command
-The game state then updates and then a scene in rendered.
-Basic game rule is that you must collect all 6 items,
-The Items are located in 6 of the game's 20 locations, good luck.
+This file creates two rectangles using a rectangle class file
+and displays it's width, height, area, 
+and perimeter using method from the rectangle class file.
 */
-
 public class RectangleTest {
   public static void main(String[] args) {
     //Create a Rectangle with width 4 and height 40
