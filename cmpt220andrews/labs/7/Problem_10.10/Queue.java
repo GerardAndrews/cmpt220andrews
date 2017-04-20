@@ -25,6 +25,7 @@ public class Queue {
     }
     elements[size++] = v;
   }
+  //Create a method that removes the element from the queue and returns it
   public int dequeue() {
     int v = elements[0];
     int[] temp = new int[elements.length];
@@ -33,9 +34,11 @@ public class Queue {
     size--;
     return v;
   }
+  //create a method to check if the element is empty and return it.
   public boolean empty() {
     return size == 0;
   }
+  //return the size
   public int getSize() {
     return size;
   }

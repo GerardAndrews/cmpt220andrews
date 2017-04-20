@@ -3,7 +3,7 @@ File: BMI.java
 Author: Gerard Andrews
 Course: CMPT220
 Assignment: Lab 7
-Due Date: TBA
+Due Date: 4/25/2017
 Version 1.0
 This file contains a class for BMI that checks for age, 
 weight, height, feet, and inches and returns it.
