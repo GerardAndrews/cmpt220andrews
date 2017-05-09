@@ -1,0 +1,14 @@
+37 pts
+
+The project is a text-based game. The idea has good merit but is not original. 
+
+However, there are some issues...
+Writeup:
+- It does not follow the structure required. Abstract, Introduction, etc. -1pt
+
+Code:
+- There is incorrect indentation. -1pt
+
+Overall:
+- Decent work below average of an SD1 student. -1pt
+
