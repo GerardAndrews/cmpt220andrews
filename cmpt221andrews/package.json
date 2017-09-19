@@ -1,0 +1,14 @@
+{
+  "name": "cmpt221andrews",
+  "version": "1.0.0",
+  "description": "Repository for cmpt221",
+  "main": "index.js",
+  "scripts": {
+    "test": "runtests"
+  },
+  "keywords": [
+    "lab4"
+  ],
+  "author": "gerard andrews",
+  "license": "ISC"
+}
